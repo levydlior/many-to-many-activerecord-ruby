@@ -1,13 +1,10 @@
 source "https://rubygems.org"
 
-gem "activerecord", "~> 6.1"
-
+gem "activerecord", "~> 5.2"
 gem "sinatra-activerecord"
-
+gem "sqlite3"
+gem "pry"
+gem "require_all"
 gem "rake"
 
-gem "sqlite3", "~> 1.4"
-
-gem "require_all"
-
-gem "pry"
+gem "faker", "~> 2.9"
