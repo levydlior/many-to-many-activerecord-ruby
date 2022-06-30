@@ -6,7 +6,9 @@
 For this practice, We're going to have 3 models: 
 
 1-  store (a store has many toys and many kids through toys **hint hint)
+
 2-  kid (a kid has many toys and many stored through toys **hint hint)
+
 3- toy (a toy belongs to a store and to a kid)
 
 **Note**: I recommend drawing the relationships to make it easier to see what goes where (which table should hold the id of the other table)
@@ -42,7 +44,7 @@ For this practice, We're going to have 3 models:
 | age    | Integer|
 
 ### toys Table
-Will need to have a name and a price
+Will need to have a `name` and a `price`
 
 **Note**: It is up to you to figure out who will hold the ids
 
