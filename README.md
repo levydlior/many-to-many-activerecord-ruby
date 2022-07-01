@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For this practice, We're going to have 3 models:
+For this practice, we're going to have 3 models:
 
 1- store (a store has many games and many kids through games \*\*hint hint)
 
