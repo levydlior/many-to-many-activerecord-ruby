@@ -6,7 +6,7 @@ For this practice, We're going to have 3 models:
 
 1- store (a store has many games and many kids through games \*\*hint hint)
 
-2- kid (a kid has many games and many stored through games \*\*hint hint)
+2- kid (a kid has many games and many stores through games \*\*hint hint)
 
 3- game (a game belongs to a store and to a kid)
 
