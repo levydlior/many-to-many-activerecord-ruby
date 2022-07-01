@@ -1,15 +1,15 @@
-# Toy store - many to many practice
+# Game store - many to many practice
 
 
 ## Introduction
 
 For this practice, We're going to have 3 models: 
 
-1-  store (a store has many toys and many kids through toys **hint hint)
+1-  store (a store has many games and many kids through games **hint hint)
 
-2-  kid (a kid has many toys and many stored through toys **hint hint)
+2-  kid (a kid has many games and many stored through games **hint hint)
 
-3- toy (a toy belongs to a store and to a kid)
+3- game (a game belongs to a store and to a kid)
 
 **Note**: I recommend drawing the relationships to make it easier to see what goes where (which table should hold the id of the other table)
 
@@ -43,8 +43,8 @@ For this practice, We're going to have 3 models:
 | name   | String |
 | age    | Integer|
 
-### toys Table
-Will need to have a `name` and a `price`
+### games Table
+Will need to have a `title` and a `price`
 
 **Note**: It is up to you to figure out who will hold the ids
 
@@ -57,23 +57,23 @@ Write the following methods:
 
 '.' will refer to a class method
 
-#### toy
+#### game
 
-- `toy#kid`
-  - returns the `kid` instance for this toy
-- `toy#store`
-  - returns the `store` instance for this toy
+- `game#kid`
+  - returns the `kid` instance for this game
+- `game#store`
+  - returns the `store` instance for this game
 
 #### Store
 
-- `store#toys`
-  - returns a collection all the toys associated with this `store`
+- `store#games`
+  - returns a collection all the games associated with this `store`
 - `store#kids`
-  - returns all the kids who got toys from this `store`
+  - returns all the kids who got games from this `store`
 
 #### Kid
 
-- `kid#toys`
-  - returns all the toys the kid has
+- `kid#games`
+  - returns all the games the kid has
 - `kid#stores`
-  - returns all the stores the kid bought a toy from
+  - returns all the stores the kid bought a game from
