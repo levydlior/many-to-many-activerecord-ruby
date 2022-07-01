@@ -20,16 +20,16 @@ For this practice, we're going to have 3 models:
 ### main
 - Main branch has the basic setup but nothing else
 - You'll have to build the migrations and migrate
-- You'll have to create modles and seed
+- You'll have to create models and seed
 - You'll have to create the associations and methods
 
 ## migrations
 - Same as above but also has the migrations all built up
-- You'll need to migrate, create modles, seeds and seed
+- You'll need to migrate, create models, seeds and seed
 - Build the associations and methodds
 
 ## all_set_up
-- Same as above but also has the modles built as well as seeds ready to go
+- Same as above but also has the models built as well as seeds ready to go
 - You'll need to create associations and methods
 
 ## solution 
