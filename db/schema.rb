@@ -10,6 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2022_07_01_162435) do
+
+  create_table "games", force: :cascade do |t|
+    t.string "title"
+    t.integer "price"
+    t.integer "store_id"
+    t.integer "kid_id"
+  end
+
+  create_table "kids", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
+  end
+
+  create_table "stores", force: :cascade do |t|
+    t.string "name"
+    t.integer "profit_per_year"
+  end
 
 end
