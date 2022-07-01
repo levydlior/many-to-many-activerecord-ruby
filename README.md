@@ -13,14 +13,27 @@ For this practice, We're going to have 3 models:
 **Note**: I recommend drawing the relationships to make it easier to see what goes where (which table should hold the id of the other table)
 
 ## Instructions
-
 -Run `bundle install`.
 
--Build the migrations (table information is provided below).
+## Which branch to work from?
 
--Build the models.
+### main
+- Main branch has the basic setup but nothing else
+- You'll have to build the migrations and migrate
+- You'll have to create modles and seed
+- You'll have to create the associations and methods
 
--Seed with some starter data so you could start working
+## migrations
+- Same as above but also has the migrations all built up
+- You'll need to migrate, create modles, seeds and seed
+- Build the associations and methodds
+
+## all_set_up
+- Same as above but also has the modles built as well as seeds ready to go
+- You'll need to create associations and methods
+
+## solution 
+- has the solution for everything
 
 **Note**: Since there are no tests, you should use pry to see if your methods work (you can use `rake console` to enter a pry session).
 
