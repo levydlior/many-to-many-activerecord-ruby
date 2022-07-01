@@ -1,6 +1,5 @@
 # Game store - many to many practice
 
-
 ## Introduction
 
 For this practice, We're going to have 3 models: 
@@ -44,6 +43,7 @@ For this practice, We're going to have 3 models:
 | age    | Integer|
 
 ### games Table
+game
 Will need to have a `title` and a `price`
 
 **Note**: It is up to you to figure out who will hold the ids
